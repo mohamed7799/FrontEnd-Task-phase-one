@@ -79,8 +79,23 @@ img {
     border-radius: 5px;
     padding: 1rem;
     margin-left: 1rem;
-    flex-basis: 20%;
     animation-duration: 2.5s;
+}
+
+.book{
+    flex-basis: 20%;
+}
+
+.album{
+    flex-basis: 40%;
+    .line{
+        margin: 0 1rem;
+    }
+
+    & > *{
+        display: flex;
+    }
+    
 }
 
 .line {
